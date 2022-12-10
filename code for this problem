@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t,i;
+	scanf ("%d", &t);
+	for (i=0;i<t;i++){
+	    int x,y,z,a,b;
+	    scanf ("%d %d %d", &x, &y, &z);
+	    a=y/x;
+	    if (a<=z){
+	        b=z-a;
+	        printf ("%d\n", b);
+	        
+	    }
+	    else{
+	        printf ("%d\n", 0);
+	    }
+	    
+	    
+	}
+	return 0;
+}
